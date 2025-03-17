@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>"IF by Davido</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
     <div class="container">
@@ -14,7 +16,7 @@
             <img src="https://i.scdn.co/image/ab67616d0000b2736687799b77ea7fa44d247c99" alt="Music Thumbnail">
             <div class="play-button"></div>
         </div>
-        
+
         <!-- Progress Bar -->
         <div class="progress-container">
             <div class="progress-bar"></div>
@@ -25,21 +27,46 @@
             <p>Choose your preferred music service</p>
         </div>
 
+        
+            <!--An Overview of the Song-->
+            <div class="Overview">
+                <h2 class="Production">An Overview</h2>
+                <p>"IF" by Davido is a romantic Afrobeat song released in 2017 that became a massive hit across Africa and
+                    beyond.
+                    The song expresses deep affection, as Davido pledges to go to great lengths, even spending "30 billion
+                    for your
+                    account,"
+                    to prove his love. With its infectious rhythm, catchy lyrics, and smooth delivery,
+                    IF quickly became an anthem for lovers and partygoers alike.</p>
+            
+                <h2 class="Production">Artist</h2>
+                <p>Davido, a Nigerian singer, songwriter, and record producer, is one of Africa’s biggest music stars.
+                    Known for his unique blend of Afrobeat and Afropop, he has won multiple awards and gained international
+                    recognition.</p>
+            
+                <h2 class="Production">Production & Message </h2>
+                <p>Produced by Tekno, IF features a smooth, mid-tempo beat with a blend of Afrobeat and highlife influences.
+                    The song carries a message of love, commitment, and financial assurance in relationships, making it a
+                    relatable
+                    and feel-good track.</p>
+            </div>
+
         <!-- Streaming Services -->
         <div class="streaming-links">
             <div class="music-link">
-                <img src="https://cloudinary-cdn.ffm.to/s--e_GXTT_B--/h_64,c_scale/f_webp/https%3A%2F%2Fassets.ffm.to%2Fimages%2Flogo%2Fmusic-service_spotify.png" 
-                     alt="Spotify" class="logo">
-                <a href="https://open.spotify.com/album/1N4On17z3onc2NH2XgHdLx?highlight=spotify:track:0XQuWhRG7qD7OYHKsgt0BN" target="_blank">
+                <img src="https://cloudinary-cdn.ffm.to/s--e_GXTT_B--/h_64,c_scale/f_webp/https%3A%2F%2Fassets.ffm.to%2Fimages%2Flogo%2Fmusic-service_spotify.png"
+                    alt="Spotify" class="logo">
+                <a href="https://open.spotify.com/album/1N4On17z3onc2NH2XgHdLx?highlight=spotify:track:0XQuWhRG7qD7OYHKsgt0BN"
+                    target="_blank">
                     <button class="play-button-link">Play</button>
                 </a>
             </div>
         </div>
-        
+
         <div class="streaming-links">
             <div class="music-link">
-                <img src="https://cloudinary-cdn.ffm.to/s--LpZFcfe0--/h_64,c_scale/f_webp/https%3A%2F%2Fassets.ffm.to%2Fimages%2Flogo%2Fmusic-service_applemusic_listen.png " 
-                     alt="Apple music" class="logo">
+                <img src="https://cloudinary-cdn.ffm.to/s--LpZFcfe0--/h_64,c_scale/f_webp/https%3A%2F%2Fassets.ffm.to%2Fimages%2Flogo%2Fmusic-service_applemusic_listen.png "
+                    alt="Apple music" class="logo">
                 <a href="https://music.apple.com/us/song/if/1205929261" target="_blank">
                     <button class="play-button-link">Play</button>
                 </a>
@@ -47,19 +74,19 @@
         </div>
         <div class="streaming-links">
             <div class="music-link" id="subscribe-container">
-                <img id="subscribe-logo" 
-                     src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjhweCIgaGVpZ2h0PSIyMnB4IiB2aWV3Qm94PSIwIDAgMjggMjIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUzLjIgKDcyNjQzKSAtIGh0dHBzOi8vc2tldGNoYXBwLmNvbSAtLT4KICAgIDx0aXRsZT5Hcm91cDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCB4MT0iMTAwJSIgeTE9Ijk3LjIxMDQ5MzglIiB4Mj0iMCUiIHkyPSIyLjc4OTUwNjIlIiBpZD0ibGluZWFyR3JhZGllbnQtMSI+CiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNBNDQ1QjIiIG9mZnNldD0iMCUiPjwvc3RvcD4KICAgICAgICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iI0Q0MTg3MiIgb2Zmc2V0PSI1MS43MDk5ODA5JSI+PC9zdG9wPgogICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjRkYwMDY2IiBvZmZzZXQ9IjEwMCUiPjwvc3RvcD4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPGcgaWQ9IlNtYXJ0LUxpbmtzLSZhbXA7LVByZXNhdmUiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSIwNC0wOS0tLVNtYXJ0TGluay1TZXR1cC0tLUVtYWlsIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzM2LjAwMDAwMCwgLTk0NC4wMDAwMDApIj4KICAgICAgICAgICAgPGcgaWQ9Ik11c2ljLVNlcnZpY2VzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMDYuMDAwMDAwLCA1NDkuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0iMiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDAwMDAsIDM2OS4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iR3JvdXAtMiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzAuMDAwMDAwLCAyNC4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwgMi4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0xMy44MTM5MzQzLDEwLjAyNTYyNjUgTDE2LjU4NTA1MjUsNy43NTQwOTQ5NyBMMTguNDQwMTU1LDEwLjMzMzQ2NTQgQzE2LjM1NzMzMDMsMTEuNTkyODQ0MiAxNC45Njc3MTI0LDEzLjgzNzE4MyAxNC45Njc3MTI0LDE2LjM5MTIyODkgQzE0Ljk2NzcxMjQsMTYuNjYxMDgwOSAxNC45ODM3MzQxLDE2LjkyNjk4OSAxNS4wMTM4NTUsMTcuMTg5MTYwNiBMMS4yNDg4NDAzNiwxNy4xODkxNjA2IEw4LjAzNDc5MDA0LDcuNzU0MzAyNTQgTDEwLjgwNTkwODIsMTAuMDI1NjI2NSBDMTEuMjQ4NzQ4OCwxMC4zODg0NzM4IDExLjc3OTE3NDgsMTAuNTY5ODk3MyAxMi4zMTAwMjgxLDEwLjU2OTg5NzMgQzEyLjg0MDQ1NDEsMTAuNTY5ODk3MyAxMy4zNzEzMDc0LDEwLjM4ODQ3MzggMTMuODEzOTM0MywxMC4wMjU2MjY1IFogTTEyLjc1NTIxODUsOC44MDU4OTUyNiBDMTIuNDg0NzcxNyw5LjAyNzU4OTA0IDEyLjEzNTA3MDgsOS4wMjc1ODkwNCAxMS44NjQ2MjQsOC44MDU4OTUyNiBMMS4xMjEwOTM3NSw0LjM1MjA3NDI2ZS0xMyBMMjMuNDk4NzQ4OCw0LjM1MjA3NDI2ZS0xMyBMMTIuNzU1MjE4NSw4LjgwNTg5NTI2IFogTS0xLjc3NjM1Njg0ZS0xNSwxLjE2ODY2NyBMNi43NzQ0MTQwNiw2LjcyMTE4NDM0IEwtMS43NzYzNTY4NGUtMTUsMTYuMTQwMDU4OSBMLTEuNzc2MzU2ODRlLTE1LDEuMTY4NjY3IFogTTE5Ljk0NDkxNTgsOS42NDAxNTMyMiBMMTcuODQ1NDI4NSw2LjcyMTE4NDM0IEwyNC42MTk4NDI1LDEuMTY4NjY3IEwyNC42MTk4NDI1LDkuNjI1NjIyNzUgQzIzLjg5MTgxNTIsOS4zODk4MTM1NyAyMy4xMTM1ODY1LDkuMjYxNzM3NTkgMjIuMzA0ODA5Niw5LjI2MTczNzU5IEMyMS40Nzk1ODM3LDkuMjYxNzM3NTkgMjAuNjg1NzYwNSw5LjM5NDc5NTQ1IDE5Ljk0NDkxNTgsOS42NDAxNTMyMiBaIiBpZD0iU2hhcGUiIGZpbGw9IiMyODI4MjgiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0yMi4zMDQ4MDk2LDEwLjg1NzM5MzYgQzI1LjQ1MDE5NTMsMTAuODU3MzkzNiAyOCwxMy4zMzUwNTA2IDI4LDE2LjM5MTIyODkgQzI4LDE5LjQ0NzYxNDcgMjUuNDUwMTk1MywyMS45MjUyNzE3IDIyLjMwNDgwOTYsMjEuOTI1MjcxNyBDMTkuMTU5NjM3NCwyMS45MjUyNzE3IDE2LjYwOTgzMjcsMTkuNDQ3NjE0NyAxNi42MDk4MzI3LDE2LjM5MTIyODkgQzE2LjYwOTgzMjcsMTMuMzM1MDUwNiAxOS4xNTk2Mzc0LDEwLjg1NzM5MzYgMjIuMzA0ODA5NiwxMC44NTczOTM2IFogTTIzLjI0OTg3NzksMTguMzY4NjIxNyBMMjMuMjQ5ODc3OSwxNC40MTM4MzYxIEMyMy4yNDk4Nzc5LDE0LjAzMjA5OTIgMjIuOTMwMjk3OSwxMy43MjE1NjE4IDIyLjUzNzQ0NTEsMTMuNzIxNTYxOCBMMjIuMzEyMjg2NCwxMy43MjE1NjE4IEMyMS45MTk0MzM2LDEzLjcyMTU2MTggMjEuNTk5ODUzNSwxNC4wMzIwOTkyIDIxLjU5OTg1MzUsMTQuNDEzODM2MSBMMjEuNTk5ODUzNSwxNC40ODY2OTYxIEwyMS41MjUwODU0LDE0LjQ4NjY5NjEgQzIxLjEzMjIzMjcsMTQuNDg2Njk2MSAyMC44MTI2NTI2LDE0Ljc5NzIzMzUgMjAuODEyNjUyNiwxNS4xNzg5NzA0IEwyMC44MTI2NTI2LDE1LjQwNDQwMDYgQzIwLjgxMjY1MjYsMTUuNzg2MTM3NSAyMS4xMzIyMzI3LDE2LjA5NjY3NSAyMS41MjUwODU0LDE2LjA5NjY3NSBMMjEuNTk5ODUzNSwxNi4wOTY2NzUgTDIxLjU5OTg1MzUsMTguMzY4NjIxNyBDMjEuNTk5ODUzNSwxOC43NTAzNTg1IDIxLjkxOTQzMzYsMTkuMDYwODk2IDIyLjMxMjI4NjQsMTkuMDYwODk2IEwyMi41Mzc0NDUxLDE5LjA2MDg5NiBDMjIuOTMwMjk3OSwxOS4wNjA4OTYgMjMuMjQ5ODc3OSwxOC43NTAzNTg1IDIzLjI0OTg3NzksMTguMzY4NjIxNyBaIiBpZD0iU2hhcGUiIGZpbGw9InVybCgjbGluZWFyR3JhZGllbnQtMSkiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+" 
-                     alt="Subscribe" class="logo">
+                <img id="subscribe-logo"
+                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjhweCIgaGVpZ2h0PSIyMnB4IiB2aWV3Qm94PSIwIDAgMjggMjIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUzLjIgKDcyNjQzKSAtIGh0dHBzOi8vc2tldGNoYXBwLmNvbSAtLT4KICAgIDx0aXRsZT5Hcm91cDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCB4MT0iMTAwJSIgeTE9Ijk3LjIxMDQ5MzglIiB4Mj0iMCUiIHkyPSIyLjc4OTUwNjIlIiBpZD0ibGluZWFyR3JhZGllbnQtMSI+CiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNBNDQ1QjIiIG9mZnNldD0iMCUiPjwvc3RvcD4KICAgICAgICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iI0Q0MTg3MiIgb2Zmc2V0PSI1MS43MDk5ODA5JSI+PC9zdG9wPgogICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjRkYwMDY2IiBvZmZzZXQ9IjEwMCUiPjwvc3RvcD4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPGcgaWQ9IlNtYXJ0LUxpbmtzLSZhbXA7LVByZXNhdmUiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSIwNC0wOS0tLVNtYXJ0TGluay1TZXR1cC0tLUVtYWlsIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzM2LjAwMDAwMCwgLTk0NC4wMDAwMDApIj4KICAgICAgICAgICAgPGcgaWQ9Ik11c2ljLVNlcnZpY2VzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMDYuMDAwMDAwLCA1NDkuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0iMiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDAwMDAsIDM2OS4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iR3JvdXAtMiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzAuMDAwMDAwLCAyNC4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwgMi4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0xMy44MTM5MzQzLDEwLjAyNTYyNjUgTDE2LjU4NTA1MjUsNy43NTQwOTQ5NyBMMTguNDQwMTU1LDEwLjMzMzQ2NTQgQzE2LjM1NzMzMDMsMTEuNTkyODQ0MiAxNC45Njc3MTI0LDEzLjgzNzE4MyAxNC45Njc3MTI0LDE2LjM5MTIyODkgQzE0Ljk2NzcxMjQsMTYuNjYxMDgwOSAxNC45ODM3MzQxLDE2LjkyNjk4OSAxNS4wMTM4NTUsMTcuMTg5MTYwNiBMMS4yNDg4NDAzNiwxNy4xODkxNjA2IEw4LjAzNDc5MDA0LDcuNzU0MzAyNTQgTDEwLjgwNTkwODIsMTAuMDI1NjI2NSBDMTEuMjQ4NzQ4OCwxMC4zODg0NzM4IDExLjc3OTE3NDgsMTAuNTY5ODk3MyAxMi4zMTAwMjgxLDEwLjU2OTg5NzMgQzEyLjg0MDQ1NDEsMTAuNTY5ODk3MyAxMy4zNzEzMDc0LDEwLjM4ODQ3MzggMTMuODEzOTM0MywxMC4wMjU2MjY1IFogTTEyLjc1NTIxODUsOC44MDU4OTUyNiBDMTIuNDg0NzcxNyw5LjAyNzU4OTA0IDEyLjEzNTA3MDgsOS4wMjc1ODkwNCAxMS44NjQ2MjQsOC44MDU4OTUyNiBMMS4xMjEwOTM3NSw0LjM1MjA3NDI2ZS0xMyBMMjMuNDk4NzQ4OCw0LjM1MjA3NDI2ZS0xMyBMMTIuNzU1MjE4NSw4LjgwNTg5NTI2IFogTS0xLjc3NjM1Njg0ZS0xNSwxLjE2ODY2NyBMNi43NzQ0MTQwNiw2LjcyMTE4NDM0IEwtMS43NzYzNTY4NGUtMTUsMTYuMTQwMDU4OSBMLTEuNzc2MzU2ODRlLTE1LDEuMTY4NjY3IFogTTE5Ljk0NDkxNTgsOS42NDAxNTMyMiBMMTcuODQ1NDI4NSw2LjcyMTE4NDM0IEwyNC42MTk4NDI1LDEuMTY4NjY3IEwyNC42MTk4NDI1LDkuNjI1NjIyNzUgQzIzLjg5MTgxNTIsOS4zODk4MTM1NyAyMy4xMTM1ODY1LDkuMjYxNzM3NTkgMjIuMzA0ODA5Niw5LjI2MTczNzU5IEMyMS40Nzk1ODM3LDkuMjYxNzM3NTkgMjAuNjg1NzYwNSw5LjM5NDc5NTQ1IDE5Ljk0NDkxNTgsOS42NDAxNTMyMiBaIiBpZD0iU2hhcGUiIGZpbGw9IiMyODI4MjgiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0yMi4zMDQ4MDk2LDEwLjg1NzM5MzYgQzI1LjQ1MDE5NTMsMTAuODU3MzkzNiAyOCwxMy4zMzUwNTA2IDI4LDE2LjM5MTIyODkgQzI4LDE5LjQ0NzYxNDcgMjUuNDUwMTk1MywyMS45MjUyNzE3IDIyLjMwNDgwOTYsMjEuOTI1MjcxNyBDMTkuMTU5NjM3NCwyMS45MjUyNzE3IDE2LjYwOTgzMjcsMTkuNDQ3NjE0NyAxNi42MDk4MzI3LDE2LjM5MTIyODkgQzE2LjYwOTgzMjcsMTMuMzM1MDUwNiAxOS4xNTk2Mzc0LDEwLjg1NzM5MzYgMjIuMzA0ODA5NiwxMC44NTczOTM2IFogTTIzLjI0OTg3NzksMTguMzY4NjIxNyBMMjMuMjQ5ODc3OSwxNC40MTM4MzYxIEMyMy4yNDk4Nzc5LDE0LjAzMjA5OTIgMjIuOTMwMjk3OSwxMy43MjE1NjE4IDIyLjUzNzQ0NTEsMTMuNzIxNTYxOCBMMjIuMzEyMjg2NCwxMy43MjE1NjE4IEMyMS45MTk0MzM2LDEzLjcyMTU2MTggMjEuNTk5ODUzNSwxNC4wMzIwOTkyIDIxLjU5OTg1MzUsMTQuNDEzODM2MSBMMjEuNTk5ODUzNSwxNC40ODY2OTYxIEwyMS41MjUwODU0LDE0LjQ4NjY5NjEgQzIxLjEzMjIzMjcsMTQuNDg2Njk2MSAyMC44MTI2NTI2LDE0Ljc5NzIzMzUgMjAuODEyNjUyNiwxNS4xNzg5NzA0IEwyMC44MTI2NTI2LDE1LjQwNDQwMDYgQzIwLjgxMjY1MjYsMTUuNzg2MTM3NSAyMS4xMzIyMzI3LDE2LjA5NjY3NSAyMS41MjUwODU0LDE2LjA5NjY3NSBMMjEuNTk5ODUzNSwxNi4wOTY2NzUgTDIxLjU5OTg1MzUsMTguMzY4NjIxNyBDMjEuNTk5ODUzNSwxOC43NTAzNTg1IDIxLjkxOTQzMzYsMTkuMDYwODk2IDIyLjMxMjI4NjQsMTkuMDYwODk2IEwyMi41Mzc0NDUxLDE5LjA2MDg5NiBDMjIuOTMwMjk3OSwxOS4wNjA4OTYgMjMuMjQ5ODc3OSwxOC43NTAzNTg1IDIzLjI0OTg3NzksMTguMzY4NjIxNyBaIiBpZD0iU2hhcGUiIGZpbGw9InVybCgjbGluZWFyR3JhZGllbnQtMSkiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+"
+                    alt="Subscribe" class="logo">
                 <span id="stay-tune-text">Stay Tune</span>
                 <button class="play-button-link" id="subscribe-button">Subscribe</button>
             </div>
         </div>
-        
-        
+
+
         <div class="streaming-links">
             <div class="music-link">
-                <img src="https://cloudinary-cdn.ffm.to/s--uf3wpRWG--/h_64,c_scale/f_webp/https%3A%2F%2Fassets.ffm.to%2Fimages%2Flogo%2Fmusic-service_amazon.png" 
-                     alt="Amazon" class="logo">
+                <img src="https://cloudinary-cdn.ffm.to/s--uf3wpRWG--/h_64,c_scale/f_webp/https%3A%2F%2Fassets.ffm.to%2Fimages%2Flogo%2Fmusic-service_amazon.png"
+                    alt="Amazon" class="logo">
                 <a href="https://www.amazon.com/If-DaVido/dp/B06X918XKD" target="_blank">
                     <button class="play-button-link">Play</button>
                 </a>
@@ -69,8 +96,8 @@
 
         <div class="streaming-links">
             <div class="music-link">
-                <img src="https://cloudinary-cdn.ffm.to/s--wJHSivtl--/h_64,c_scale/f_webp/https%3A%2F%2Fassets.ffm.to%2Fimages%2Flogo%2Fmusic-service_tidal.png" 
-                     alt="Tilda" class="logo">
+                <img src="https://cloudinary-cdn.ffm.to/s--wJHSivtl--/h_64,c_scale/f_webp/https%3A%2F%2Fassets.ffm.to%2Fimages%2Flogo%2Fmusic-service_tidal.png"
+                    alt="Tilda" class="logo">
                 <a href="https://tidal.com/browse/track/70420584" target="_blank">
                     <button class="play-button-link">Play</button>
                 </a>
@@ -80,8 +107,8 @@
 
         <div class="streaming-links">
             <div class="music-link">
-                <img src="https://cloudinary-cdn.ffm.to/s--nYvVzXAq--/h_64,c_scale/f_webp/https%3A%2F%2Fassets.ffm.to%2Fimages%2Flogo%2Fmusic-service_youtube.png" 
-                     alt="Youtube" class="logo">
+                <img src="https://cloudinary-cdn.ffm.to/s--nYvVzXAq--/h_64,c_scale/f_webp/https%3A%2F%2Fassets.ffm.to%2Fimages%2Flogo%2Fmusic-service_youtube.png"
+                    alt="Youtube" class="logo">
                 <a href="https://youtu.be/helEv0kGHd4?si=QcAnz-AKiI6DZcHV" target="_blank">
                     <button class="play-button-link">Play</button>
                 </a>
@@ -91,8 +118,8 @@
 
         <div class="streaming-links">
             <div class="music-link">
-                <img src="https://cloudinary-cdn.ffm.to/s--afUcMju---/h_64,c_scale/f_webp/https%3A%2F%2Fassets.ffm.to%2Fimages%2Flogo%2Fmusic-service_audiomack.png" 
-                     alt="Audiomack" class="logo">
+                <img src="https://cloudinary-cdn.ffm.to/s--afUcMju---/h_64,c_scale/f_webp/https%3A%2F%2Fassets.ffm.to%2Fimages%2Flogo%2Fmusic-service_audiomack.png"
+                    alt="Audiomack" class="logo">
                 <a href="https://audiomack.com/davido/song/05-if" target="_blank">
                     <button class="play-button-link">Play</button>
                 </a>
@@ -102,8 +129,8 @@
 
         <div class="streaming-links">
             <div class="music-link">
-                <img src="https://cloudinary-cdn.ffm.to/s--40s9zDd5--/h_64,c_scale/f_webp/https%3A%2F%2Fassets.ffm.to%2Fimages%2Flogo%2Fmusic-service_itunes.png" 
-                     alt="itunes" class="logo">
+                <img src="https://cloudinary-cdn.ffm.to/s--40s9zDd5--/h_64,c_scale/f_webp/https%3A%2F%2Fassets.ffm.to%2Fimages%2Flogo%2Fmusic-service_itunes.png"
+                    alt="itunes" class="logo">
                 <a href="https://music.apple.com/ng/album/if-single/1205929054" target="_blank">
                     <button class="play-button-link" id="dowload-button">Download</button>
                 </a>
@@ -113,8 +140,8 @@
 
         <div class="streaming-links">
             <div class="music-link">
-                <img src="https://cloudinary-cdn.ffm.to/s--BuOsZiLg--/h_64,c_scale/f_webp/https%3A%2F%2Fassets.ffm.to%2Fimages%2Flogo%2Fmusic-service_deezer.png" 
-                     alt="Spotify" class="logo">
+                <img src="https://cloudinary-cdn.ffm.to/s--BuOsZiLg--/h_64,c_scale/f_webp/https%3A%2F%2Fassets.ffm.to%2Fimages%2Flogo%2Fmusic-service_deezer.png"
+                    alt="Spotify" class="logo">
                 <a href="https://www.deezer.com/en/track/142337581" target="_blank">
                     <button class="play-button-link">Play</button>
                 </a>
@@ -122,15 +149,18 @@
         </div>
     </div>
 
-    <p>By using this service you agree to our 
-        <span><a href="https://featurefm.zendesk.com/hc/en-us/articles/360042764451-Privacy-Policy" class="privacy-link">Privacy</a></span>
+    <p>By using this service you agree to our
+        <span><a href="https://featurefm.zendesk.com/hc/en-us/articles/360042764451-Privacy-Policy"
+                class="privacy-link">Privacy</a></span>
     </p>
-    
+
     <p>
-        <span><a href="ttps://featurefm.zendesk.com/hc/en-us/articles/360042764451-Privacy-Policy" class="privacy-link">Policy</a></span>
-        and <span><a href="https://featurefm.zendesk.com/hc/en-us/articles/360042334392-Terms-of-Use." class="privacy-link">Terms of Use.</a></span>
+        <span><a href="ttps://featurefm.zendesk.com/hc/en-us/articles/360042764451-Privacy-Policy"
+                class="privacy-link">Policy</a></span>
+        and <span><a href="https://featurefm.zendesk.com/hc/en-us/articles/360042334392-Terms-of-Use."
+                class="privacy-link">Terms of Use.</a></span>
     </p>
-  
+
     <p>
         <span>Manage</a></span> your permissions
     </p>
@@ -142,6 +172,7 @@
 
     <script src="script.js"></script>
 
-        
+
 </body>
+
 </html>
